@@ -38,6 +38,12 @@ grunt.initConfig({
 			// port: function() { return 8282; }
 			port: 8282,
 			
+			//If HTTPS is required, then uncomment the following and supply
+			//paths to key.pem and cert.pem 
+	                //https:{
+	                //    key: 'key.pem',
+	                //    cert: 'cert.pem'
+	                //},
 
 			// the host ip address
 			// If specified to, for example, "127.0.0.1" the server will 
